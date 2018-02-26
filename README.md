@@ -4,7 +4,7 @@
 这个项目是通过 esp32控制串口打印机打印微信收到的文本消息(暂不支持图片),实际上并没有什么用处.   
 市面上有这种打印机是分享出去通过网页给打印机主人'写信',可以自己用Flask做个接口然后扩展一下,这里就不再讨论了.
 ### 效果展示
-- 
+- ![readmeimg2](https://raw.githubusercontent.com/wzqwzq666/WXPrinter/master/pic/wxp3.gif)
 
 ### 硬件和软件准备
 - 可以使用微信的手机 *1
@@ -75,7 +75,7 @@ t1.start()
 
 ### 硬件接线
 - 参考图片,其中 esp32 `HardwareSerial Serial1(2);`用的是 pin16,17.线的颜色都很明显,就不过多说明了.
-
-
+- 打印机接口定义 ![readmeimg](https://raw.githubusercontent.com/wzqwzq666/WXPrinter/master/pic/wxp1.jpg)
+- esp32及打印机接线![readmeimg2](https://raw.githubusercontent.com/wzqwzq666/WXPrinter/master/pic/wxp2.jpg)
 
 
